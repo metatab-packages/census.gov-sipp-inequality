@@ -14,8 +14,8 @@ Version.Major,1
 Version.Minor,1
 Version.Patch,1
 Created,2020-12-28T19:10:20
-Modified,2020-12-29T00:47:03
-Giturl,https://github.com/metatab-packages/inequality-collection.git
+Modified,2020-12-29T00:52:08
+Giturl,https://github.com/metatab-packages/census.gov-sipp-inequality.git
 ""
 Section,Contacts,Email,Organization,Url
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com
