@@ -14,7 +14,7 @@ Version.Major,1
 Version.Minor,1
 Version.Patch,1
 Created,2020-12-28T19:10:20
-Modified,2020-12-29T00:52:08
+Modified,2020-12-30T00:44:53
 Giturl,https://github.com/metatab-packages/census.gov-sipp-inequality.git
 ""
 Section,Contacts,Email,Organization,Url
@@ -29,83 +29,83 @@ Reference,metapack+http://library.metatab.org/census.gov-sipp.csv,SIPP,SIPP Data
 Section,Resources,Name,Description,
 Datafile,notebooks/Extract.ipynb#df,sipp_18,"SIPP Inequality extract, 2018",
 ""
-Section,Schema,DataType,Description
-Table,sipp_18,,
-Table.Column,ssuid,integer,"Sample unit identifier. This identifier is created by scrambling together PSU, Sequence #1, Sequence #2, and the Frame Indicator for a case. It may be used in matching sample units from different waves."
-Table.Column,spanel,integer,Panel year
-Table.Column,swave,integer,Wave number of interview
-Table.Column,efood1,integer,The food you bought did not last?
-Table.Column,efood6,integer,"In 2017, were you ever hungry but didn't eat because there wasn't enough money for food?"
-Table.Column,eawbsafe,integer,Is ... neighborhood safe from crime?
-Table.Column,pnum,integer,Person number
-Table.Column,ems,integer,"Is ... currently married, widowed, divorced, separated, or never married?"
-Table.Column,erelrpe,integer,Household relationship (detailed categories)
-Table.Column,esex,integer,Sex of this person
-Table.Column,eorigin,integer,"Is ... Spanish, Hispanic, or Latino?"
-Table.Column,erace,integer,What race(s) does ... consider herself/himself to be?
-Table.Column,eeduc,integer,What is the highest level of school ... completed or the highest degree received by December of (reference year)?
-Table.Column,ebornus,integer,Where was ... born?
-Table.Column,exmar,integer,Number of times married
-Table.Column,rpar1sex,integer,Parent 1 sex at interview month
-Table.Column,rpar2sex,integer,Parent 2 sex at interview month
-Table.Column,eprocert,integer,Has...earned a professional certification or license?
-Table.Column,efood_sr1yn,integer,Did ... receive assistance from a government social service agency?
-Table.Column,rlunch_chld,integer,Did child usually get the school lunch that his/her school provided?
-Table.Column,rbreak_chld,integer,Did child usually get the school breakfast that his/her school provided?
-Table.Column,rsnap_yryn,integer,Received SNAP benefits in at least one month of the reference period
-Table.Column,ejseddebt,integer,Owed any money for student loans or educational expenses jointly with a spouse or civil union partner during the reference period.
-Table.Column,eoeddebt,integer,Owed any money for student loans or educational expenses in own name only during the reference period.
-Table.Column,edinrpar,integer,How many days in a typical week did reference parent eat dinner with child/children?
-Table.Column,rdinrpar,integer,Number of times reference parent had dinner with child 0-17.
-Table.Column,rdinrop,integer,Number of times other parent had dinner with child 0-17.
-Table.Column,rgetby,integer,Child does just enough to get by
-Table.Column,eexpsch,integer,Child/children ever been suspended or expelled from school?
-Table.Column,rexpsch,integer,Child was expelled
-Table.Column,egifted,integer,Child/children in gifted class/classes.
-Table.Column,rlesson,integer,Child takes lessons
-Table.Column,empf,integer,Do you have children with more than one partner?
-Table.Column,epnspouse,integer,Person number of spouse
-Table.Column,epnpar2,integer,Person number of parent 2
-Table.Column,epnpar1,integer,Person number of parent 1
-Table.Column,epar1typ,integer,Type of relationship to parent 1
-Table.Column,epar2typ,integer,Type of relationship to parent 2
-Table.Column,monthcode,integer,Value of reference month
-Table.Column,wpfinwgt,number,Final person weight
-Table.Column,eresidenceid,integer,This field stores a unique six-digit identifier for residence addresses.
-Table.Column,rfamref,integer,Person number of the family reference person
-Table.Column,rfpersons,integer,Number of persons in family
-Table.Column,rfrelu18,integer,Number of persons in family under 18 years
-Table.Column,rfamkind,integer,Kind of family
-Table.Column,rhnumper,integer,Number of persons in household this month
-Table.Column,rhnum65over,integer,Number of persons in household 65 years and over this month
-Table.Column,rhnum65ovrt2,integer,Number of persons in household 65 years and over this month (with Type 2 persons)
-Table.Column,ejb1_wshmwrk,integer,Were there any days when ... worked only from home?
-Table.Column,ejb1_wsjob,integer,What is the best description of ... work schedule?
-Table.Column,efood_mnyn,integer,Did ... receive food assistance (not SNAP) this month (1-12)?
-Table.Column,rsnap_mnyn,integer,Received SNAP benefits this month
-Table.Column,rfpov,integer,"Family poverty threshold in this month, excluding Type 2 individuals"
-Table.Column,rhpov,integer,"Household poverty threshold in this month, excluding Type 2 individuals"
-Table.Column,rin_univ,integer,Monthly indicator that respondent is in survey frame universe
-Table.Column,tage_fb,integer,Age at first birth
-Table.Column,tprvlvqrt,integer,Type of living quarters for the residence.
-Table.Column,trace,integer,What race(s) does ... consider herself/himself to be? (detailed categories)
-Table.Column,tnum_cbu,integer,Number of child bearing unions
-Table.Column,thhldstatus,integer,Household status
-Table.Column,tjb1_pvtime,integer,What is ... one-way travel to work in minutes?
-Table.Column,toeddebtval,integer,Amount of student loans or educational expenses owed in own name only as of the last day of the reference period.
-Table.Column,tage,integer,Age as of last birthday
-Table.Column,tage_ehc,integer,Monthly age during the reference year.
-Table.Column,ttanf_amt,integer,Value of the TANF benefits received this month
-Table.Column,tmwkhrs,number,Average number of hours worked per week at all jobs held during the reference month.
-Table.Column,tpearn,integer,"Sum of earnings and profits/losses from all jobs, varying with the number of days in the month (comparable to RPEARN in 1996, 2001, and 2014 SIPP panels)."
-Table.Column,tdebt_ast,integer,"Person-level sum of all debt (TDEBT_SEC, TDEBT_USEC)."
-Table.Column,thinc_stmf,integer,"Household-level sum of income earned over the reference period from stocks and mutual funds (TINC_STMF) [this is household-level data, therefore this value is copied to every member of the household]."
-Table.Column,thval_home,integer,"Household-level sum of value of primary residence (TVAL_HOME) [this is household-level data, therefore this value is copied to every member of the household]."
-Table.Column,thval_ast,integer,"Household-level sum of all asset values (TVAL_AST) [this is household-level data, therefore this value is copied to every member of the household]."
-Table.Column,thdebt_ast,integer,"Household-level sum of all debt (TDEBT_AST) [this is household-level data, therefore this value is copied to every member of the household]."
-Table.Column,thnetworth,integer,"Household-level net worth [this is household-level data, therefore this value is copied to every member of the household]."
-Table.Column,tptrninc,integer,"Sum of monthly income received from means-tested transfer programs (including SSI, TANF, GA, and the Veterans Pension program)"
-Table.Column,tptotinc,integer,"Sum of personal monthly earnings and income for people age 15 and older, as well as children under age 15 who received SSI payments"
-Table.Column,tfcyincpov,number,"Family income-to-poverty ratio in this calendar year, excluding Type 2 individuals"
-Table.Column,thcyincpov,number,"Household income-to-poverty ratio in this calendar year, excluding Type 2 individuals"
-Table.Column,raceeth,string,Rance / Ethnicity
+Section,Schema,DataType,Description,Has_Codes
+Table,sipp_18,,,
+Table.Column,ssuid,integer,"Sample unit identifier. This identifier is created by scrambling together PSU, Sequence #1, Sequence #2, and the Frame Indicator for a case. It may be used in matching sample units from different waves.",
+Table.Column,spanel,integer,Panel year,
+Table.Column,swave,integer,Wave number of interview,
+Table.Column,efood1,integer,The food you bought did not last?,
+Table.Column,efood6,integer,"In 2017, were you ever hungry but didn't eat because there wasn't enough money for food?",
+Table.Column,eawbsafe,integer,Is ... neighborhood safe from crime?,
+Table.Column,pnum,integer,Person number,
+Table.Column,ems,integer,"Is ... currently married, widowed, divorced, separated, or never married?",
+Table.Column,erelrpe,integer,Household relationship (detailed categories),
+Table.Column,esex,integer,Sex of this person,
+Table.Column,eorigin,integer,"Is ... Spanish, Hispanic, or Latino?",
+Table.Column,erace,integer,What race(s) does ... consider herself/himself to be?,
+Table.Column,eeduc,integer,What is the highest level of school ... completed or the highest degree received by December of (reference year)?,
+Table.Column,ebornus,integer,Where was ... born?,
+Table.Column,exmar,integer,Number of times married,
+Table.Column,rpar1sex,integer,Parent 1 sex at interview month,
+Table.Column,rpar2sex,integer,Parent 2 sex at interview month,
+Table.Column,eprocert,integer,Has...earned a professional certification or license?,
+Table.Column,efood_sr1yn,integer,Did ... receive assistance from a government social service agency?,
+Table.Column,rlunch_chld,integer,Did child usually get the school lunch that his/her school provided?,
+Table.Column,rbreak_chld,integer,Did child usually get the school breakfast that his/her school provided?,
+Table.Column,rsnap_yryn,integer,Received SNAP benefits in at least one month of the reference period,
+Table.Column,ejseddebt,integer,Owed any money for student loans or educational expenses jointly with a spouse or civil union partner during the reference period.,
+Table.Column,eoeddebt,integer,Owed any money for student loans or educational expenses in own name only during the reference period.,
+Table.Column,edinrpar,integer,How many days in a typical week did reference parent eat dinner with child/children?,
+Table.Column,rdinrpar,integer,Number of times reference parent had dinner with child 0-17.,
+Table.Column,rdinrop,integer,Number of times other parent had dinner with child 0-17.,
+Table.Column,rgetby,integer,Child does just enough to get by,
+Table.Column,eexpsch,integer,Child/children ever been suspended or expelled from school?,
+Table.Column,rexpsch,integer,Child was expelled,
+Table.Column,egifted,integer,Child/children in gifted class/classes.,
+Table.Column,rlesson,integer,Child takes lessons,
+Table.Column,empf,integer,Do you have children with more than one partner?,
+Table.Column,epnspouse,integer,Person number of spouse,
+Table.Column,epnpar2,integer,Person number of parent 2,
+Table.Column,epnpar1,integer,Person number of parent 1,
+Table.Column,epar1typ,integer,Type of relationship to parent 1,
+Table.Column,epar2typ,integer,Type of relationship to parent 2,
+Table.Column,monthcode,integer,Value of reference month,
+Table.Column,wpfinwgt,number,Final person weight,
+Table.Column,eresidenceid,integer,This field stores a unique six-digit identifier for residence addresses.,
+Table.Column,rfamref,integer,Person number of the family reference person,
+Table.Column,rfpersons,integer,Number of persons in family,
+Table.Column,rfrelu18,integer,Number of persons in family under 18 years,
+Table.Column,rfamkind,integer,Kind of family,
+Table.Column,rhnumper,integer,Number of persons in household this month,
+Table.Column,rhnum65over,integer,Number of persons in household 65 years and over this month,
+Table.Column,rhnum65ovrt2,integer,Number of persons in household 65 years and over this month (with Type 2 persons),
+Table.Column,ejb1_wshmwrk,integer,Were there any days when ... worked only from home?,
+Table.Column,ejb1_wsjob,integer,What is the best description of ... work schedule?,
+Table.Column,efood_mnyn,integer,Did ... receive food assistance (not SNAP) this month (1-12)?,
+Table.Column,rsnap_mnyn,integer,Received SNAP benefits this month,
+Table.Column,rfpov,integer,"Family poverty threshold in this month, excluding Type 2 individuals",
+Table.Column,rhpov,integer,"Household poverty threshold in this month, excluding Type 2 individuals",
+Table.Column,rin_univ,integer,Monthly indicator that respondent is in survey frame universe,
+Table.Column,tage_fb,integer,Age at first birth,
+Table.Column,tprvlvqrt,integer,Type of living quarters for the residence.,
+Table.Column,trace,integer,What race(s) does ... consider herself/himself to be? (detailed categories),
+Table.Column,tnum_cbu,integer,Number of child bearing unions,
+Table.Column,thhldstatus,integer,Household status,
+Table.Column,tjb1_pvtime,integer,What is ... one-way travel to work in minutes?,
+Table.Column,toeddebtval,integer,Amount of student loans or educational expenses owed in own name only as of the last day of the reference period.,
+Table.Column,tage,integer,Age as of last birthday,
+Table.Column,tage_ehc,integer,Monthly age during the reference year.,
+Table.Column,ttanf_amt,integer,Value of the TANF benefits received this month,
+Table.Column,tmwkhrs,number,Average number of hours worked per week at all jobs held during the reference month.,
+Table.Column,tpearn,integer,"Sum of earnings and profits/losses from all jobs, varying with the number of days in the month (comparable to RPEARN in 1996, 2001, and 2014 SIPP panels).",
+Table.Column,tdebt_ast,integer,"Person-level sum of all debt (TDEBT_SEC, TDEBT_USEC).",
+Table.Column,thinc_stmf,integer,"Household-level sum of income earned over the reference period from stocks and mutual funds (TINC_STMF) [this is household-level data, therefore this value is copied to every member of the household].",
+Table.Column,thval_home,integer,"Household-level sum of value of primary residence (TVAL_HOME) [this is household-level data, therefore this value is copied to every member of the household].",
+Table.Column,thval_ast,integer,"Household-level sum of all asset values (TVAL_AST) [this is household-level data, therefore this value is copied to every member of the household].",
+Table.Column,thdebt_ast,integer,"Household-level sum of all debt (TDEBT_AST) [this is household-level data, therefore this value is copied to every member of the household].",
+Table.Column,thnetworth,integer,"Household-level net worth [this is household-level data, therefore this value is copied to every member of the household].",
+Table.Column,tptrninc,integer,"Sum of monthly income received from means-tested transfer programs (including SSI, TANF, GA, and the Veterans Pension program)",
+Table.Column,tptotinc,integer,"Sum of personal monthly earnings and income for people age 15 and older, as well as children under age 15 who received SSI payments",
+Table.Column,tfcyincpov,number,"Family income-to-poverty ratio in this calendar year, excluding Type 2 individuals",
+Table.Column,thcyincpov,number,"Household income-to-poverty ratio in this calendar year, excluding Type 2 individuals",
+Table.Column,raceeth,string,Rance / Ethnicity,
