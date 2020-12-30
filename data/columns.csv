@@ -1,0 +1,82 @@
+,group,column,description
+0,id,ssuid,"Sample unit identifier. This identifier is created by scrambling together PSU, Sequence #1, Sequence #2, and the Frame Indicator for a case. It may be used in matching sample units from different waves."
+1,id,pnum,Person number
+2,id,monthcode,Value of reference month
+3,id,eresidenceid,This field stores a unique six-digit identifier for residence addresses.
+4,id,erelrpe,Household relationship (detailed categories)
+5,id,spanel,Panel year
+6,id,swave,Wave number of interview
+7,id,wpfinwgt,Final person weight
+8,id,thhldstatus,Household status
+9,id,rin_univ,Monthly indicator that respondent is in survey frame universe
+10,personal,esex,Sex of this person
+11,personal,tage,Age as of last birthday
+12,personal,tage_ehc,Monthly age during the reference year.
+13,personal,erace,What race(s) does ... consider herself/himself to be?
+14,personal,trace,What race(s) does ... consider herself/himself to be? (detailed categories)
+15,personal,eorigin,"Is ... Spanish, Hispanic, or Latino?"
+16,personal,eeduc,What is the highest level of school ... completed or the highest degree received by December of (reference year)?
+17,personal,ems,"Is ... currently married, widowed, divorced, separated, or never married?"
+18,personal,ebornus,Where was ... born?
+19,personal,empf,Do you have children with more than one partner?
+20,personal,tage_fb,Age at first birth
+21,personal,tnum_cbu,Number of child bearing unions
+22,personal,exmar,Number of times married
+23,personal,ems,"Is ... currently married, widowed, divorced, separated, or never married?"
+24,family_household,rfamkind,Kind of family
+25,family_household,rfamref,Person number of the family reference person
+26,family_household,rhnumper,Number of persons in household this month
+27,family_household,rfrelu18,Number of persons in family under 18 years
+28,family_household,rfpersons,Number of persons in family
+29,family_household,rfrelu18,Number of persons in family under 18 years
+30,family_household,rhnum65over,Number of persons in household 65 years and over this month
+31,family_household,rhnum65ovrt2,Number of persons in household 65 years and over this month (with Type 2 persons)
+32,family_household,epnspouse,Person number of spouse
+33,family_household,epnpar1,Person number of parent 1
+34,family_household,epnpar2,Person number of parent 2
+35,children_neighb,rpar1sex,Parent 1 sex at interview month
+36,children_neighb,rpar2sex,Parent 2 sex at interview month
+37,children_neighb,eawbsafe,Is ... neighborhood safe from crime?
+38,children_neighb,eexpsch,Child/children ever been suspended or expelled from school?
+39,children_neighb,rexpsch,Child was expelled
+40,children_neighb,egifted,Child/children in gifted class/classes.
+41,children_neighb,rlesson,Child takes lessons
+42,children_neighb,rgetby,Child does just enough to get by
+43,children_neighb,efood1,The food you bought did not last?
+44,children_neighb,efood6,"In 2017, were you ever hungry but didn't eat because there wasn't enough money for food?"
+45,children_neighb,rbreak_chld,Did child usually get the school breakfast that his/her school provided?
+46,children_neighb,rlunch_chld,Did child usually get the school lunch that his/her school provided?
+47,children_neighb,edinrpar,How many days in a typical week did reference parent eat dinner with child/children?
+48,children_neighb,rdinrpar,Number of times reference parent had dinner with child 0-17.
+49,children_neighb,rdinrop,Number of times other parent had dinner with child 0-17.
+50,children_neighb,epar1typ,Type of relationship to parent 1
+51,children_neighb,epar2typ,Type of relationship to parent 2
+52,living_quarters,tprvlvqrt,Type of living quarters for the residence.
+53,employment_ed,tpearn,"Sum of earnings and profits/losses from all jobs, varying with the number of days in the month (comparable to RPEARN in 1996, 2001, and 2014 SIPP panels)."
+54,employment_ed,tmwkhrs,Average number of hours worked per week at all jobs held during the reference month.
+55,employment_ed,eoeddebt,Owed any money for student loans or educational expenses in own name only during the reference period.
+56,employment_ed,toeddebtval,Amount of student loans or educational expenses owed in own name only as of the last day of the reference period.
+57,employment_ed,ejseddebt,Owed any money for student loans or educational expenses jointly with a spouse or civil union partner during the reference period.
+58,employment_ed,eprocert,Has...earned a professional certification or license?
+59,employment_ed,ejb1_wshmwrk,Were there any days when ... worked only from home?
+60,employment_ed,ejb1_wsjob,What is the best description of ... work schedule?
+61,employment_ed,tjb1_pvtime,What is ... one-way travel to work in minutes?
+62,programs,efood_mnyn,Did ... receive food assistance (not SNAP) this month (1-12)?
+63,programs,efood_sr1yn,Did ... receive assistance from a government social service agency?
+64,programs,rsnap_mnyn,Received SNAP benefits this month
+65,programs,rsnap_yryn,Received SNAP benefits in at least one month of the reference period
+66,programs,ttanf_amt,Value of the TANF benefits received this month
+67,personal_finances,tval_ast,"Person-level sum of all asset values (TVAL_BANK, TVAL_STMF, TVAL_BOND, TVAL_RENT, TVAL_RE, TVAL_OTH, TVAL_RET, TVAL_BUS, TVAL_HOME, TVAL_VEH, TVAL_ESAV)."
+68,personal_finances,tdebt_ast,"Person-level sum of all debt (TDEBT_SEC, TDEBT_USEC)."
+69,personal_finances,tnetworth,"Person-level net worth (TVAL_AST, -TDEBT_AST)."
+70,hh_finaces,rfpov,"Family poverty threshold in this month, excluding Type 2 individuals"
+71,hh_finaces,tfcyincpov,"Family income-to-poverty ratio in this calendar year, excluding Type 2 individuals"
+72,hh_finaces,rhpov,"Household poverty threshold in this month, excluding Type 2 individuals"
+73,hh_finaces,thcyincpov,"Household income-to-poverty ratio in this calendar year, excluding Type 2 individuals"
+74,hh_finaces,tptotinc,"Sum of personal monthly earnings and income for people age 15 and older, as well as children under age 15 who received SSI payments"
+75,hh_finaces,tptrninc,"Sum of monthly income received from means-tested transfer programs (including SSI, TANF, GA, and the Veterans Pension program)"
+76,hh_finaces,thval_ast,"Household-level sum of all asset values (TVAL_AST) [this is household-level data, therefore this value is copied to every member of the household]."
+77,hh_finaces,thval_home,"Household-level sum of value of primary residence (TVAL_HOME) [this is household-level data, therefore this value is copied to every member of the household]."
+78,hh_finaces,thdebt_ast,"Household-level sum of all debt (TDEBT_AST) [this is household-level data, therefore this value is copied to every member of the household]."
+79,hh_finaces,thnetworth,"Household-level net worth [this is household-level data, therefore this value is copied to every member of the household]."
+80,hh_finaces,thinc_stmf,"Household-level sum of income earned over the reference period from stocks and mutual funds (TINC_STMF) [this is household-level data, therefore this value is copied to every member of the household]."
