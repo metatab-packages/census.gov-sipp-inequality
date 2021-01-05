@@ -8,3 +8,5 @@ metadata.txt
 _packages
 *.pyc
 .DS_Store
+
+data/inequality.feather

@@ -1,1 +1,2 @@
 metapack-build
+pyarrow
